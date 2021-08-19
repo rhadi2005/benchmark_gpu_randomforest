@@ -1,13 +1,17 @@
 # tensorflow_ds
 R&amp;D for implementing tensorflow in Saturn Cloud
 
-Dataset: `clothing-dataset-small` is on S3 but loading from disk is necessary for training at this time.
+
+
+Datasets: 
+* `clothing-dataset-small` is on S3 but loading from disk is necessary for training at this time.
+* bird data can be downloaded from kaggle, `kaggle datasets download -d gpiosenka/100-bird-species`
 
 ## Current Scripts
 
 * Inference parallel on cluster: `inference.ipynb`
 * Training single node (slowish): `training_singlenode.ipynb`
-* Training multi-gpu single machine (fast): `training_multigpu.ipynb` 
+* Training multi-gpu single machine (fast): `training_multigpu.ipynb` - uses bird dataset
 * Training multi-gpu multi-machine (not yet working): `training_cluster.ipynb`
 
 
