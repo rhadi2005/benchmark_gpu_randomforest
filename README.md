@@ -3,7 +3,7 @@ Implementing Tensorflow in Saturn Cloud on GPUs
 
 ## Current Scripts
 
-* Training single node (slowish): `training_singlenode-birds.ipynb`
+* Training single node (slowish): `training_singlenode.ipynb`
 * Training multi-gpu single machine (fast): `training_multigpu.ipynb`
 
 ## Things to Watch For
