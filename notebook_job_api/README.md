@@ -9,14 +9,14 @@ The only thing the notebook does in this example is writes a line to the logs (y
 In Saturn Cloud, create a new **Job resource** that has the following **run command**:
 
 ```bash
-papermill materials/notebook-job-api/example.ipynb out.ipynb --stdout-file - --stderr-file - --kernel python3
+papermill materials/notebook_job_api/example.ipynb out.ipynb --stdout-file - --stderr-file - --kernel python3
 ```
 
 You will also need to add `papermill` as a dependency in the pip section. This command uses the papermill package to
 execute a notebook and record the output. If you don't want the extra dependency you can use jupyter, which is already on our instances, with the following command:
 
 ```bash
-jupyter nbconvert --to python --execute materials/notebook-job-api/example.ipynb
+jupyter nbconvert --to python --execute materials/notebook_job_api/example.ipynb
 ```
 
 However when you use jupyter the cell execution isn't capture by the Saturn Cloud logs.
@@ -50,3 +50,5 @@ url = f'https://app.{saturn_instance}.saturnenterprise.io/api/jobs/{job_id}/star
 headers={"Authorization": f"token {user_token}"}
 r = requests.post(url, headers=headers)
 ```
+
+You can see the logs from the previous execution by clicking the **Status** link on the job page.
