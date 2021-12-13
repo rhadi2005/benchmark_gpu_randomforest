@@ -3,7 +3,7 @@
 (This content has been moved to an example you can run in Saturn Cloud)
 
 <div style="text-align: center">
-    <a href="https://app.community.saturnenterprise.io/dash/resources?recipeUrl=https://raw.githubusercontent.com/saturncloud/examples/main/examples/pytorch-gpu-experiment/.saturn/saturn.json" target="_blank" rel="noopener noreferrer"
+    <a href="https://app.community.saturnenterprise.io/dash/resources?recipeUrl=https://raw.githubusercontent.com/saturncloud/examples/main/examples/dask-gpu-experiment/.saturn/saturn.json" target="_blank" rel="noopener noreferrer"
     style="all: unset; border-radius:32px;display:inline-flex;align-items: center;
     background-color:#FF6721;font-family:sans-serif;font-size:20px;font-weight:700;
     color:#FFF;padding:8px 16px 8px 16px;cursor:pointer;">
